@@ -22,5 +22,3 @@ console.log({ objStr }, objStr.test); // test
 // in javascript only null and undefined cant be boxed because they dont have wrapper unlike false, 0 both have Boolean and Number wrapper but undefined and null dont have any wrapper
 let nullValue = null;
 console.log(nullValue.toString()); // TypeError: Cannot read properties of null
-
-//need to revert this in future as its buggy code
